@@ -38,4 +38,21 @@ Follow up to 56 lines, find that 56 lines of code knowledge simply judge whether
 
 
 Found that the return value is admin. Continue to follow up.
+![image](https://github.com/wwwws1234/ucms/blob/master/13.png)
+
+
+Thirty-three lines of code execute updating the user's information in the database, and here you just use where directly with username. Then you can successfully modify the password of admin.
+
+![image](https://github.com/wwwws1234/ucms/blob/master/14.png)
+
+
+View database discovery password has been modified to abab
+
+
+![image](https://github.com/wwwws1234/ucms/blob/master/15.png)
+
+
+Verify login, password has been reset to abab,In this way, we succeeded in modifying the password of admin successfully from the common user test.
+
+
 
